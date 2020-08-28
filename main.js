@@ -1,6 +1,6 @@
-module.exports = {
-  addons: ['@storybook/addon-controls'],
-};
+//module.exports = {
+  //addons: ['@storybook/addon-controls'],
+//};
 module.exports = {
   addons: [
     {
