@@ -1,0 +1,9 @@
+// ButtonGroup.stories.js
+
+import { Button, ButtonGroup } from '../ButtonGroup';
+
+export default {
+  title: 'Path/to/ButtonGroup',
+  component: ButtonGroup,
+  subcomponents: { Button },
+};
