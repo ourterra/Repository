@@ -1,9 +1,15 @@
-  module.exports = {
-  stories: ['../src/components/**/*.stories.js'],
+module.exports = {
+  addons: ['@storybook/addon-controls'],
+};
+module.exports = {
   addons: [
-    '@storybook/addon-links',
-    '@storybook/addon-essentials',
-    '@storybook/preset-create-react-app',
-  ],
-};
-};
+    {
+      name: '@storybook/preset-scss',
+      options: {
+        cssLoaderOptions: {
+           modules: true,
+           localIdentName: '[name]__[local]--[hash:base64:5]',
+        }
+      }
+    },
+  ]
