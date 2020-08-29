@@ -32,6 +32,7 @@
     "react-is": "^16.13.1"
   },
   "dependencies": {
-    "@storybook/design-system": "^5.1.26"
+    "@storybook/design-system": "^5.1.26",
+    "@workday/canvas-kit-react": "^4.1.2"
   }
 }
