@@ -32,6 +32,7 @@
     "react-is": "^16.13.1"
   },
   "dependencies": {
+    "@modulz/radix": "0.0.1-beta.44",
     "@storybook/design-system": "^5.1.26",
     "@workday/canvas-kit-react": "^4.1.2"
   }
