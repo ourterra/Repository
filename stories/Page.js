@@ -9,42 +9,53 @@ export const Page = ({ user, onLogin, onLogout, onCreateAccount }) => (
     <Header user={user} onLogin={onLogin} onLogout={onLogout} onCreateAccount={onCreateAccount} />
 
     <section>
-      <h2>My Ourterra's Page in Storybook</h2>
+      <h1>DEUTSCHLAND Seite in Storybook</h1>
       <p>
-        We recommend building UIs with a{' '}
-        <a href="https://componentdriven.org" target="_blank" rel="noopener noreferrer">
-          <strong>component-driven</strong>
+        Deutschland gehört geologisch zu Westeuropa, das heißt zu jenem Teil des Kontinents,
+        der dem präkambrisch konsolidierten „Ur-Europa“ (Osteuropa einschließlich eines Großteils Skandinaviens,
+          vgl. Baltica) erst im Verlauf des Phanerozoikums sukzessive durch Kontinent-Kontinent-Kollisionen
+          (Gebirgsbildungen) angegliedert wurde.{' '}
+        <a href="https://de.wikipedia.org/wiki/Deutschland" target="_blank" rel="noopener noreferrer">
+          <strong><h4>Deutschland auf WIKI</h4></strong>
         </a>{' '}
-        process starting with atomic components and ending with pages.
+        An Deutschland grenzen neun Staaten,
+        es hat Anteil an der Nord- und Ostsee im Norden sowie dem Bodensee und den Alpen im Süden.
       </p>
       <p>
-        Render pages with mock data. This makes it easy to build and review page states without
-        needing to navigate to them in your app. Here are some handy patterns for managing page data
-        in Storybook:
+        Es liegt in der gemäßigten Klimazone und verfügt über sechzehn National- und über hundert Naturparks.
+        Bundeshauptstadt sowie bevölkerungsreichste deutsche Stadt ist Berlin. Weitere Metropolen mit
+        mehr als einer Million Einwohnern sind Hamburg, München und Köln, der größte Ballungsraum ist das
+        Ruhrgebiet, Frankfurt am Main ist als deutsches Finanzzentrum international von Bedeutung.
       </p>
       <ul>
         <li>
-          Use a higher-level connected component. Storybook helps you compose such data from the
-          "args" of child component stories
+          Deutschlands Bevölkerung hat mit 1,57 Kindern pro Frau (2018)
+          eine vergleichsweise niedrige Geburtenrate, die jedoch in den 2010er-Jahren leicht anstieg.
         </li>
         <li>
-          Assemble data in the page component from your services. You can mock these services out
-          using Storybook.
+          Auf dem Gebiet des heutigen Deutschlands ist die
+          Anwesenheit von Menschen vor 500.000 Jahren durch Funde des Homo heidelbergensis,
+          des Neandertalers sowie einiger der ältesten Kunstwerke der Menschheit aus
+          der späteren Altsteinzeit nachgewiesen.
         </li>
       </ul>
       <p>
-        Get a guided tutorial on component-driven development at{' '}
-        <a href="https://www.learnstorybook.com" target="_blank" rel="noopener noreferrer">
-          Learn Storybook
+        Deutschland ist Gründungsmitglied der
+        <a href="https://de.wikipedia.org/wiki/Europ%C3%A4ische_Union" target="_blank" rel="noopener noreferrer">
+        Europäischen Union 
         </a>
-        . Read more in the{' '}
-        <a href="https://storybook.js.org/docs" target="_blank" rel="noopener noreferrer">
-          docs
+         sowie deren bevölkerungsreichstes Land.
+        Mit 18 anderen EU-Mitgliedstaaten bildet es eine Währungsunion, die Eurozone. {' '}
+
+        Die naturräumlichen Großregionen sind von Nord nach Süd: das Norddeutsche Tiefland, {' '}
+        <a href="https://de.wikipedia.org/wiki/Norddeutsches_Tiefland" target="_blank" rel="noopener noreferrer">
+          Norddeutsche Tiefland
         </a>
-        .
+         die Mittelgebirgszone und das Alpenvorland mit den Alpen.
       </p>
       <div className="tip-wrapper">
-        <span className="tip">Tip</span> Adjust the width of the canvas with the{' '}
+        <span className="tip">Tip</span> Nehmen Sie sich täglich 10-15 Minuten Zeit,
+        um WIKI zu lesen{' '}
         <svg width="10" height="10" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
           <g fill="none" fillRule="evenodd">
             <path
@@ -54,7 +65,7 @@ export const Page = ({ user, onLogin, onLogout, onCreateAccount }) => (
             />
           </g>
         </svg>
-        Viewports addon in the toolbar
+        und Ihr Wissen zu verbessern)
       </div>
     </section>
   </article>
