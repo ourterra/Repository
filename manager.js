@@ -1,17 +1,9 @@
-// .storybook/manager.js
+  // .storybook/manager.js
 
 import { addons } from '@storybook/addons';
+import yourTheme from './okTheme';
 
 addons.setConfig({
-  isFullscreen: false,
-  showNav: true,
-  showPanel: true,
-  panelPosition: 'bottom',
-  sidebarAnimations: true,
-  enableShortcuts: true,
-  isToolshown: true,
-  theme: undefined,
-  selectedPanel: undefined,
-  initialActive: 'sidebar',
-  showRoots: false,
+  theme: okTheme,
+});
 });
