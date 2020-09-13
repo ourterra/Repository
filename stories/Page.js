@@ -42,9 +42,8 @@ export const Page = ({ user, onLogin, onLogout, onCreateAccount }) => (
       <p>
         Deutschland ist Gründungsmitglied der
         <a href="https://de.wikipedia.org/wiki/Europ%C3%A4ische_Union" target="_blank" rel="noopener noreferrer">
-        Europäischen Union 
-        </a>
-         sowie deren bevölkerungsreichstes Land.
+       Europäischen Union
+        </a> sowie deren bevölkerungsreichstes Land.
         Mit 18 anderen EU-Mitgliedstaaten bildet es eine Währungsunion, die Eurozone. {' '}
 
         Die naturräumlichen Großregionen sind von Nord nach Süd: das Norddeutsche Tiefland, {' '}
