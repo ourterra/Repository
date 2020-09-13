@@ -44,7 +44,7 @@ Button.propTypes = {
 
 Button.defaultProps = {
   backgroundColor: null,
-  primary: false,
+  primary: true,
   size: 'medium',
   onClick: undefined,
 };
