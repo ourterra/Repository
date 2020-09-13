@@ -65,7 +65,7 @@ export const Page = ({ user, onLogin, onLogout, onCreateAccount }) => (
           </g>
         </svg>
          oben wechseln
-      </div>
+   </div>
     </section>
   </article>
 );
