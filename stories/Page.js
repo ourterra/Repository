@@ -9,7 +9,7 @@ export const Page = ({ user, onLogin, onLogout, onCreateAccount }) => (
     <Header user={user} onLogin={onLogin} onLogout={onLogout} onCreateAccount={onCreateAccount} />
 
     <section>
-      <h1>DEUTSCHLAND Seite in Storybook</h1>
+    <h1>DEUTSCHLAND Seite in Storybook</h1>
       <p>
         Deutschland gehört geologisch zu Westeuropa, das heißt zu jenem Teil des Kontinents,
         der dem präkambrisch konsolidierten „Ur-Europa“ (Osteuropa einschließlich eines Großteils Skandinaviens,
@@ -41,20 +41,20 @@ export const Page = ({ user, onLogin, onLogout, onCreateAccount }) => (
       </ul>
       <p>
         Deutschland ist Gründungsmitglied der
+
         <a href="https://de.wikipedia.org/wiki/Europ%C3%A4ische_Union" target="_blank" rel="noopener noreferrer">
-       Europäischen Union
-        </a> sowie deren bevölkerungsreichstes Land.
+         Europäischen Union </a>
+ sowie deren bevölkerungsreichstes Land.
         Mit 18 anderen EU-Mitgliedstaaten bildet es eine Währungsunion, die Eurozone. {' '}
 
         Die naturräumlichen Großregionen sind von Nord nach Süd: das Norddeutsche Tiefland, {' '}
         <a href="https://de.wikipedia.org/wiki/Norddeutsches_Tiefland" target="_blank" rel="noopener noreferrer">
-          Norddeutsche Tiefland
-        </a>
-         die Mittelgebirgszone und das Alpenvorland mit den Alpen.
+           Norddeutsche Tiefland </a>
+ die Mittelgebirgszone und das Alpenvorland mit den Alpen.
       </p>
       <div className="tip-wrapper">
         <span className="tip">Tip</span> Nehmen Sie sich täglich 10-15 Minuten Zeit,
-        um WIKI zu lesen{' '}
+        um WIKI zu lesen und Ihr Wissen zu verbessern). Sie können die Ansicht über das Symbol{' '}
         <svg width="10" height="10" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
           <g fill="none" fillRule="evenodd">
             <path
@@ -64,7 +64,7 @@ export const Page = ({ user, onLogin, onLogout, onCreateAccount }) => (
             />
           </g>
         </svg>
-        und Ihr Wissen zu verbessern)
+         oben wechseln
       </div>
     </section>
   </article>
